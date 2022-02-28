@@ -1,0 +1,49 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1645689109532' stop='1645689109558'>
+    <name>Test cases for EriBank</name>
+    <title>Test cases for EriBank</title>
+    <test-cases>
+        <test-case start='1645689109533' status='passed' stop='1645689109552'>
+            <name>TC_01_Sign In To The Account</name>
+            <title>TC_01_Sign In To The Account</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Pixel_2_API_29 10-10'/>
+            </parameters>
+            <steps>
+                <step start='1645689109537' status='undefined'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='a4c1a96a-3a0f-4507-9737-be1176dc3835-attachment.json' type='application/json' size='67'/>
+                    </attachments>
+                    <steps>
+                        <step start='1645689109543' status='undefined'>
+                            <name>POST /session/:sessionId/element</name>
+                            <title>POST /session/:sessionId/element</title>
+                            <attachments>
+                                <attachment title='Request' source='d0671a1c-7b1b-4150-8d13-40347f750a32-attachment.json' type='application/json' size='67'/>
+                            </attachments>
+                            <steps>
+                                <step start='1645689109546' status='undefined'>
+                                    <name>POST /session/:sessionId/element</name>
+                                    <title>POST /session/:sessionId/element</title>
+                                    <attachments>
+                                        <attachment title='Request' source='5c618a27-fbe6-4981-b721-3b2d1d61a4fe-attachment.json' type='application/json' size='77'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <description type='text'>User should be able to login to the account and verify the home page</description>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,74 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1644833827217' stop='1644833828047'>
+    <name>Test cases for EriBank</name>
+    <title>Test cases for EriBank</title>
+    <test-cases>
+        <test-case start='1644833827218' status='failed' stop='1644833828046'>
+            <name>TC_01_Sign In To The Account</name>
+            <title>TC_01_Sign In To The Account</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554 10-10'/>
+            </parameters>
+            <steps>
+                <step start='1644833827222' status='failed' stop='1644833828045'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='37c9d4e0-0d8f-47fe-8eae-e7236fabdfcc-attachment.json' type='application/json' size='80'/>
+                    </attachments>
+                    <steps>
+                        <step start='1644833827229' status='failed' stop='1644833828045'>
+                            <name>POST /session/:sessionId/element</name>
+                            <title>POST /session/:sessionId/element</title>
+                            <attachments>
+                                <attachment title='Request' source='c781a08e-37f0-49f1-a8f9-56c237bda5f0-attachment.json' type='application/json' size='80'/>
+                            </attachments>
+                            <steps>
+                                <step start='1644833827236' status='failed' stop='1644833828045'>
+                                    <name>POST /session/:sessionId/element</name>
+                                    <title>POST /session/:sessionId/element</title>
+                                    <attachments>
+                                        <attachment title='Request' source='8a289055-fc32-40f8-8dd4-09d874e62456-attachment.json' type='application/json' size='75'/>
+                                    </attachments>
+                                    <steps>
+                                        <step start='1644833827243' status='failed' stop='1644833828045'>
+                                            <name>POST /session/:sessionId/element</name>
+                                            <title>POST /session/:sessionId/element</title>
+                                            <attachments>
+                                                <attachment title='Request' source='65857942-1c99-470f-b8c6-afc86679d989-attachment.json' type='application/json' size='93'/>
+                                            </attachments>
+                                            <steps>
+                                                <step start='1644833827248' status='passed' stop='1644833828044'>
+                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                    <attachments>
+                                                        <attachment title='Screenshot' source='15e3833a-0112-4707-8798-82d5aec24058-attachment.png' type='image/png' size='58349'/>
+                                                    </attachments>
+                                                    <steps/>
+                                                </step>
+                                            </steps>
+                                        </step>
+                                    </steps>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>expectedText is not defined</message>
+                <stack-trace>ReferenceError: expectedText is not defined
+                    at Context.&lt;anonymous> (C:\Other\WebdriverIOTestProject\test\TS_01.js:20:30)
+                    at Context.executeAsync (C:\Other\WebdriverIOTestProject\node_modules\@wdio\utils\build\shim.js:331:27)
+                    at Context.testFrameworkFnWrapper (C:\Other\WebdriverIOTestProject\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:45:32)</stack-trace>
+            </failure>
+            <description type='text'>User should be able to login to the account and verify the home page</description>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
