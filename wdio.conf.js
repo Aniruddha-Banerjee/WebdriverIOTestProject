@@ -61,10 +61,10 @@ exports.config = {
       "appium:deviceName": "emulator-5554",
       "appium:automationName": "UiAutomator2",
       //  "appium:app": "C:\\Other\\AndroidProject\\intellij\\AppiumDemo\\apk\\mityousee_5.19.0_11102703.apk",
-      // "appium:app":
-      //   "C:\\Other\\AndroidProject\\intellij\\AppiumDemo\\apk\\Other\\6.0.0 (20215213).apk",
       "appium:app":
-        "C:\\Other\\AndroidProject\\intellij\\AppiumDemo\\apk\\Other\\ApiDemos-debug.apk",
+        "C:\\Other\\AndroidProject\\intellij\\AppiumDemo\\apk\\Other\\6.0.0 (20215213).apk",
+      // "appium:app":
+      //   "C:\\Other\\AndroidProject\\intellij\\AppiumDemo\\apk\\Other\\ApiDemos-debug.apk",
       // maxInstances can get overwritten per capability. So if you have an in-house Selenium
       // grid with only 5 firefox instances available you can make sure that not more than
       // 5 instances get started at a time.
