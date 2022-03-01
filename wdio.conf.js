@@ -7,7 +7,7 @@ exports.config = {
   runner: "local",
   port: 4723,
   hostname: "localhost",
-  path: "/",
+  path: "/wd/hub",
   //
   // ==================
   // Specify Test Files
